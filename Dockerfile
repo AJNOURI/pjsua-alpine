@@ -3,4 +3,4 @@ RUN apk update
 RUN apk add pjsua
 ADD M1F1-Alaw-AFsp.wav M1F1-Alaw-AFsp.wav
 ADD user.cfg user.cfg
-ADD readme.md readme.txt
+COPY readme.md readme.txt
